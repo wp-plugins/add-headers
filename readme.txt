@@ -179,7 +179,9 @@ If you lack in ANY of the above things, DO NOT use this plugin and DO NOT rate i
 
 This is because there isn't a settings page in the WordPress administration panel. The plugin can be configured by adding a small code snippet in the `functions.php` file of the theme or in custom plugin.
 
-= How do I know if the plugin is working? I does not notify me in any way! =
+There are absolutely no plans to implement a settings page in future releases. This feature is out of the question. Please do not rate the plugin for something that is clearly not offered or planned.
+
+= How do I know if the plugin is working? It does not notify me in any way! =
 
 The plugin won't raise any fancy popups telling you that it's working! You will have to check the actual HTTP response headers. Knowing how to do it is a mandatory requirement and is beyond the scope of the support that can be provided to you by the plugin author.
 
