@@ -205,7 +205,7 @@ Start by reading the following [analysis](http://stackoverflow.com/questions/802
 
 Also, please use the forum to report such incidents and hopefully work with the plugin author to resolve them.
 
-Please DO NOT rate the plugin based on this warning. This is not an error of the plugin itself. It has to do with the way PHP processes the HTTP response headers and the actual response body.
+Please DO NOT rate the plugin based on this warning. This is not an problem of the plugin itself. It has to do with the way PHP processes the HTTP response headers and the actual response body.
 
 
 == Screenshots ==
