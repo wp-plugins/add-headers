@@ -17,7 +17,7 @@ Adds the *ETag*, *Last-Modified*, *Expires* and *Cache-Control* headers to HTTP 
 
 = Before reading any further =
 
-Before reading any further or trying this plugin on your platforms and, especially before adding a rating, **make sure** you have thoroughly studied the [FAQ](https://wordpress.org/plugins/add-headers/faq/). This plugin might not be what you think it is. Also, this plugin might not be for you.
+Before reading any further or trying this plugin on your WordPress platforms and, especially before adding a rating, **make sure** you have thoroughly studied the [FAQ](https://wordpress.org/plugins/add-headers/faq/). This plugin might not be what you think it is. Also, this plugin might not be the right plugin for you.
 
 = Why is this plugin useful? =
 
@@ -150,11 +150,11 @@ No special requirements when upgrading.
 
 == Frequently Asked Questions ==
 
-= Is this an "idiot" friendly plugin? =
+= What is the target audience of this plugin? =
 
-No. This plugin is strictly for those who know exactly what they are doing.
+This plugin exists strictly for people who know exactly what they are doing.
 
-= What knowledge is required before being able to use this plugin? =
+= What knowledge is required before being able to understand what this plugin is doing? =
 
 Before using this plugin or asking for support, it is mandatory to be able to fully understand the following terms:
 
@@ -173,7 +173,11 @@ Moreover, it is mandatory to know how to check the HTTP response headers, as ret
 
 Last but no least, it is mandatory to know how to check your web server's error log.
 
-If you lack in ANY of the above things, DO NOT use this plugin and DO NOT rate it. Add-Headers IS NOT for you. Get over it.
+If you lack in ANY of the above things, please DO NOT USE this plugin and DO NOT RATE it. Add-Headers is not for you.
+
+= Does this plugin just work? =
+
+Yes. Despite all the mandatory requirements in knowledge, this plugin has been designed to just work. The default options have sensible default values that should work for the vast majority of web sites.
 
 = I cannot find the settings page! =
 
@@ -185,10 +189,6 @@ There are absolutely no plans to implement a settings page in future releases. T
 
 The plugin won't raise any fancy popups telling you that it's working! You will have to check the actual HTTP response headers. Knowing how to do it is a mandatory requirement and is beyond the scope of the support that can be provided to you by the plugin author.
 
-= Does this plugin just work? =
-
-Yes. Despite all the requirements in knowledge, this plugin has been designed to just work. The default options have sensible default values that should work for the vast majority of web sites.
-
 = How can I customize the options or the plugin functionality? =
 
 Please study the 'Description' page.
@@ -197,15 +197,15 @@ The plugin options can be customized by adding a small code snippet in the `func
 
 = I get a PHP warning: 'Cannot modify header information - headers already sent' =
 
-This warning is not due to a programming error in the Add-Headers code. It happens because output buffering gets closed by another plugin or other custom code before Add-Headers sents the HTTP headers to the client. The path to the Add-Headers script may appear in the warning message, but the real problem is caused by 3rd party code.
+This warning is not due to a programming error in the Add-Headers code. It happens because output buffering gets closed by another plugin or other custom code before Add-Headers sents the HTTP headers to the client. The path to the Add-Headers PHP script may appear in the warning message, but the real problem is caused by 3rd party code.
 
-It is impossible to tell what code causes this error. It depends on other plugins you use. Thorough investigation is required.
+It is impossible to guess what part of your 3rd party code causes this error. It depends on other plugins you use or other custom code. Thorough investigation is required.
 
 Start by reading the following [analysis](http://stackoverflow.com/questions/8028957/how-to-fix-headers-already-sent-error-in-php/8028987#8028987) of the problem.
 
 Also, please use the forum to report such incidents and hopefully work with the plugin author to resolve them.
 
-Please DO NOT rate the plugin based on this warning. This is not an problem of the plugin itself. It has to do with the way PHP processes the HTTP response headers and the actual response body.
+Please DO NOT rate the plugin based on this warning. This is not an problem of the plugin itself. It has to do with the way PHP processes the HTTP response headers and the actual response body and the way WordPress and the various plugins generate them.
 
 
 == Screenshots ==
