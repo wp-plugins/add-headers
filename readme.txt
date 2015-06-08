@@ -207,6 +207,14 @@ Also, please use the forum to report such incidents and hopefully work with the 
 
 Please DO NOT rate the plugin based on this warning. This is not an problem of the plugin itself. It has to do with the way PHP processes the HTTP response headers and the actual response body and the way WordPress and the various plugins generate them.
 
+= I've added a low star rating in order to motivate you! Why don't you help me or not implement the feature I want? =
+
+Time permitting, I generally try to do my best with providing free support for my plugins.
+
+But, if you try to force that with a low star rating, I can guarantee it will never happen. You are never going to get that help from me that way.
+
+If you have already made that mistake or if you were not aware of the policy, that's not my problem. You are not getting any help.
+
 
 == Screenshots ==
 
