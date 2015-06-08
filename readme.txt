@@ -197,7 +197,7 @@ The plugin options can be customized by adding a small code snippet in the `func
 
 = I get a PHP warning: 'Cannot modify header information - headers already sent' =
 
-This warning is not due to a programming error in the Add-Headers code. It happens because output buffering gets closed by another plugin or other custom code before Add-Headers sents the HTTP headers to the client. The path to the Add-Headers PHP script may appear in the warning message, but the real problem is caused by 3rd party code.
+This warning is not due to a programming error in the Add-Headers code. It happens because output buffering gets closed by another plugin or other custom code before Add-Headers sents the HTTP headers to the client. The path to the Add-Headers PHP script may appear in the warning message, but the real cause of the problem is 3rd party code.
 
 It is impossible to guess what part of your 3rd party code causes this error. It depends on other plugins you use or other custom code. Thorough investigation is required.
 
@@ -205,7 +205,7 @@ Start by reading the following [analysis](http://stackoverflow.com/questions/802
 
 Also, please use the forum to report such incidents and hopefully work with the plugin author to resolve them.
 
-Please DO NOT rate the plugin based on this warning. This is not an problem of the plugin itself. It has to do with the way PHP processes the HTTP response headers and the actual response body and the way WordPress and the various plugins generate them.
+Please DO NOT rate the plugin based on this warning. This is not a problem of the plugin itself. It has to do with the way PHP processes the HTTP response headers and the actual response body and the way WordPress and the various plugins generate them.
 
 = I've added a low star rating in order to motivate you! Why don't you help me or not implement the feature I want? =
 
@@ -213,7 +213,7 @@ Time permitting, I generally try to do my best with providing free support for m
 
 But, if you try to force that with a low star rating, I can guarantee it will never happen. You are never going to get that help from me that way.
 
-If you have already made that mistake or if you were not aware of the policy, that's not my problem. You are not getting any help.
+If you have already made that mistake because you were not aware of the policy, that's not my problem. You are not getting any help.
 
 
 == Screenshots ==
