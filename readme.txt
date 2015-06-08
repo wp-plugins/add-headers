@@ -169,9 +169,9 @@ Before using this plugin or asking for support, it is mandatory to be able to fu
  * Expires header
  * Web/HTTP Cache
 
-Moreover, it is mandatory to know how to check the HTTP response headers, as returned by the web server, to which you have sent an HTTP request.
+Moreover, it is mandatory to know how to check the HTTP response headers, as returned by the web server, to which you have sent the HTTP request.
 
-Last but no least, it is mandatory to know how to check your web server's error log.
+Last but not least, it is mandatory to know how to check your web server's error log.
 
 If you lack in ANY of the above things, please DO NOT USE this plugin and DO NOT RATE it. Add-Headers is not for you.
 
