@@ -170,7 +170,7 @@ No special requirements when upgrading.
 
 = What is the target audience of this plugin? =
 
-This plugin exists strictly for people who know exactly what they are doing.
+This plugin exists only for people who know exactly what they are doing.
 
 = What knowledge is required before being able to understand what this plugin is doing? =
 
@@ -193,7 +193,7 @@ Being able to **edit a PHP file**, such as the `functions.php` file of your them
 
 Last but not least, it is mandatory to know how to **check your web server's error log**.
 
-If you lack in ANY of the above things, please DO NOT USE this plugin and DO NOT RATE it. Add-Headers is not for you.
+If you lack in ANY of the above things, please DO NOT USE this plugin and please DO NOT RATE it. Add-Headers is not the right plugin for you.
 
 = Does this plugin just work? =
 
@@ -207,19 +207,19 @@ In order to be able to check whether the plugin is working fine on your platform
 
 = I cannot find the settings page! =
 
-This is because there isn't a settings page in the WordPress administration panel. The plugin can be configured by adding a small code snippet in the `functions.php` file of the theme or in a custom plugin.
+This is because there isn't a settings page in the WordPress administration panel. However, the plugin can be configured by adding a small code snippet in the `functions.php` file of the theme or in a custom plugin.
 
-There are absolutely no plans to implement a settings page in future releases. This feature is out of the question. Please do not rate the plugin for something that is clearly not offered or planned.
-
-Please study the 'Description' page for information about the plugin options.
+There are no plans to implement a settings page in future releases. This happens because we need a great amount of flexibility which cannot be offered by a web based user interface. Nevertheless, configuration requires very basic coding skills. Please check the description page for more details about the available settings and sample code.
 
 = How do I know if the plugin is working? It does not notify me in any way! =
 
-The plugin won't raise any fancy popups telling you that it's working! You will have to check the actual HTTP response headers. Knowing how to do it is a mandatory requirement and is beyond the scope of the support that can be provided to you by the plugin author.
+By design, this plugin won't notify you about anything. You will have to check the actual HTTP response headers. Knowing how to do it is a mandatory requirement and is beyond the scope of the support that can be provided to you by the plugin author. However, you can easily find relevant tutorials and online or offline tools to help you with this.
+
+The description page contains some simple instructions about how to do some basic testing using `curl`.
 
 = How can I customize the options or the plugin functionality? =
 
-Please study the 'Description' page.
+Please study the 'Description' page. All the information you need exists there.
 
 The plugin options can be customized by adding a small code snippet in the `functions.php` file of your theme. Moreover, the plugin functionality can be further customized by attaching filtering functions to the available filter hooks.
 
@@ -239,13 +239,13 @@ Please DO NOT rate the plugin based on this warning. This is not a problem of th
 
 Time permitting, the developer generally tries to do his best with providing free support for this plugin.
 
-But, if you try to force that support with a low star rating, it is absolutely guaranteed you are not going to get any help. It's never going to work that way.
+But, if you try to force that support with a low star rating, it is guaranteed you are not going to get any help. Unfortunately, it's never going to work that way. So, please, do not do it. You are encouraged to provide detailed feedback in the forums and work closely with the dev in order to get problems fixed. Then, feel free to add your review.
 
 = What should I always bare in mind before asking for support? =
 
 This plugin is Free software. It is developed in the author's free time and is offered without support of any kind. However, the developer tries to do his best to offer support for free in these forums.
 
-You are expected to *collaborate* and act as a *contributor*. Detailed feedback is almost always the key for the quick resolution of any issue. Give the developer time to respond. Acting and expressing demands as if you are the customer or as if the developer is your personal assistant or employee is not a good way to ask for support. In fact, there is very little tolerance for such kind of behavior.
+You are expected to *collaborate* and act as a *contributor*. Detailed feedback is almost always the key for the quick resolution of any issue. Give the developer time to respond. Acting and expressing demands as if you are the customer or as if the developer is your personal assistant or employee is not a good way to ask for support. In fact, there is very little tolerance for such kind of behavior. Please, do not do it. Fixing all potential issues is just a matter of good collaboration.
 
 
 == Screenshots ==
