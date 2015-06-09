@@ -72,10 +72,9 @@ header to `public` or `no-cache` according to the defined `max-age` of the
 
 However, a significant amount of **time** and **energy** has been put into developing and testing this plugin, so, its production has not been free from cost. If you find this plugin useful and if it has helped your blog pages get cached more efficiently and has saved you bandwidth and CPU load, you can show your appreciation by making a small <a href="http://bit.ly/wp-add-headers">donation</a>.
 
-Donations in the following crypto currencies are also accepted and welcome. Send coins to the following addresses:
+Donations in Bitcoin are also accepted and welcome. Send coins to the following addresses:
 
 - BitCoin (BTC): `1KkgpmaBKqQVk643VRhFRkL19Bbci4Mwn9`
-- LiteCoin (LTC): `LS8UF39LfLahzGo49y736ooRYBVT1zZ2Fa`
 
 Thank you in advance for **donating**!
 
