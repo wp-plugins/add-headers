@@ -223,17 +223,23 @@ Please study the 'Description' page. All the information you need exists there.
 
 The plugin options can be customized by adding a small code snippet in the `functions.php` file of your theme. Moreover, the plugin functionality can be further customized by attaching filtering functions to the available filter hooks.
 
+= How can I customize the options or the plugin functionality? =
+
+Please study the 'Description' page. All the information you need exists there.
+
+The plugin options can be customized by adding a small code snippet in the `functions.php` file of your theme. Moreover, the plugin functionality can be further customized by attaching filtering functions to the available filter hooks.
+
 = I get a PHP warning: 'Cannot modify header information - headers already sent' =
 
-This warning is not due to a programming error in the Add-Headers code. It happens because output buffering gets closed by another plugin or other custom code before Add-Headers sents the HTTP headers to the client. The path to the Add-Headers PHP script may appear in the warning message, but the real cause of the problem is 3rd party code.
+This warning does *not* occur due to a programming error in the Add-Headers code. It happens because output buffering gets closed by another plugin or other custom code before Add-Headers sents the HTTP headers to the client.
 
-It is impossible to guess what part of your 3rd party code causes this problem. It depends on other plugins you use or other custom code. Thorough investigation is required.
+It is impossible to guess what part of your 3rd party code causes this problem. It depends on other plugins you use or other custom code. Thorough investigation of the warning messages that have been recorded in the web server's error log is required.
 
 Start by reading the following [analysis](http://stackoverflow.com/questions/8028957/how-to-fix-headers-already-sent-error-in-php/8028987#8028987) of the problem.
 
 Also, please use the forum to report such incidents and hopefully work with the plugin author to resolve them.
 
-Please DO NOT rate the plugin based on this warning. This is not a problem of the plugin itself. It has to do with the way PHP processes the HTTP response headers and the actual response body and the way WordPress and the various plugins generate them.
+Please DO NOT rate the plugin based on this warning. This is not a problem of the plugin itself. It has to do with the way PHP sends the HTTP response headers and the actual response body to the web server and also with the way WordPress and the various plugins generate them.
 
 = I've added a low star rating in order to motivate you! Why don't you help me or not implement the feature I want? =
 
